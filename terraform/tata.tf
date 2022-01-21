@@ -13,6 +13,7 @@ module "tata-account" {
   account_tags = {
     "ENV" = "labo"
     "CC"  = "12345"
+    "PO"  = "Patrick Fortier"
   }
 
   change_management_parameters = {
