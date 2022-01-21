@@ -25,4 +25,5 @@ module "tt1-account" {
     group = "non-prod"
   }
 
+  account_customizations_name = "toto"
 }
