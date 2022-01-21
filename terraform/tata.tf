@@ -24,5 +24,5 @@ module "tata-account" {
     group = "non-prod"
   }
 
-  account_customizations_name = "tata"
+  ##account_customizations_name = "tata"
 }
