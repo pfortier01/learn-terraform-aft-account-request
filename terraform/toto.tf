@@ -11,8 +11,10 @@ module "toto-account" {
   }
 
   account_tags = {
-    "ENV" = "labo"
-    "CC"  = "12345"
+    "ENV"    = "labo"
+    "CC"     = "12345"
+    "Projet" = "projet toto"
+    "PO"     = "Patrick Fortier"
   }
 
   change_management_parameters = {
