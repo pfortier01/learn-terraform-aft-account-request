@@ -4,7 +4,7 @@ module "tt1-account" {
   control_tower_parameters = {
     AccountEmail              = "aws.acc.lab+tt1-lacapitale${formatdate("YYYYMMDD", timestamp())}@beneva.ca"
     AccountName               = "tt1"
-    ManagedOrganizationalUnit = "test2"
+    ManagedOrganizationalUnit = "AFT"
     SSOUserEmail              = "aws.acc.lab+ssouser1-lacapitale20012022@beneva.ca"
     SSOUserFirstName          = "ssouser1"
     SSOUserLastName           = "ssouser1"
