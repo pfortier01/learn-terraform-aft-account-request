@@ -2,7 +2,7 @@ module "tt1-account" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "aws.acc.lab+${control_tower_parameters.AccountName}-lacapitale${formatdate("YYYYMMDD", timestamp()}@beneva.ca"
+    AccountEmail              = "aws.acc.lab+${control_tower_parameters.AccountName}-lacapitale${formatdate("YYYYMMDD", timestamp())}@beneva.ca"
     AccountName               = "tt1"
     ManagedOrganizationalUnit = "test2"
     SSOUserEmail              = "aws.acc.lab+ssouser1-lacapitale20012022@beneva.ca"
