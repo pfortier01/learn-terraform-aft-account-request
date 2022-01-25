@@ -4,7 +4,7 @@ module "toto-account" {
   control_tower_parameters = {
     AccountEmail              = "aws.acc.lab+toto-lacapitale20012022@beneva.ca"
     AccountName               = "toto"
-    ManagedOrganizationalUnit = "test2"
+    ManagedOrganizationalUnit = "test0"
     SSOUserEmail              = "aws.acc.lab+ssouser1-lacapitale20012022@beneva.ca"
     SSOUserFirstName          = "ssouser1"
     SSOUserLastName           = "ssouser1"
