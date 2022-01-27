@@ -4,7 +4,7 @@ module "tt3-account" {
   control_tower_parameters = {
     AccountEmail              = "aws.acc.lab+tt3-lacapitale20012022@beneva.ca"
     AccountName               = "tt3"
-    ManagedOrganizationalUnit = "test2(ou-hqs3-85sc7rti)"
+    ManagedOrganizationalUnit = "test1(ou-hqs3-ldwe9jiy)"
     SSOUserEmail              = "aws.acc.lab+ssouser1-lacapitale20012022@beneva.ca"
     SSOUserFirstName          = "ssouser1"
     SSOUserLastName           = "ssouser1"
